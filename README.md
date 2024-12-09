@@ -10,6 +10,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Data
+- The data can be accessed through the following link [data](https://drive.google.com/drive/folders/15RoDhY-ziadMpKcXYVoCf_3lhKqcHNVx)
+- Please download the data and save it in the data/ directory.
 
 ## EDA
 Run notebook EDA.py to perform exploratory data analysis on the provided dataset 
