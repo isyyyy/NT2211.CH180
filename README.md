@@ -1,8 +1,3 @@
-# Model Training and Testing
-This project provides a framework for training multiple machine learning models, saving them, and evaluating their performance using a structured approach.
-
-It supports saving all models and their evaluation metrics, as well as testing and comparing results.
-
 ## Install the required packages
 ```bash
 python -m venv venv
@@ -32,9 +27,6 @@ python train.py
 
 - Models used:
   - XGBoost
-  - Random Forest
-  - Logistic Regression
-  - K-Nearest Neighbors
 - Key metrics:
   - Accuracy
   - Precision
@@ -51,12 +43,9 @@ python test.py
 ```
 
 
-## Predict with test data
-Run predict.py to load the saved models from the models/ directory, predict the target variable for the provided test dataset (X_test.csv), and save the predictions to the predictions/ directory.
+# Predict with test data
+Run predict.py to load the saved models from the models/ directory, predict the target variable for the provided test dataset (test.csv), and save the predictions to the predictions/ directory.
 ```bash
 python predict.py
 ```
-
-## Results
-The best model is XGBoost with an accuracy of 0.9 against the test dataset.
 
